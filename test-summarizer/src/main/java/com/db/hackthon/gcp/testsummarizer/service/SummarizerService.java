@@ -16,7 +16,6 @@ public class SummarizerService {
 		summary.createIntersectionMatrix();
 		summary.createDictionary();
 		summary.createSummary();
-		System.out.println("SUMMMARY" + summary.printSummary());
 		return summary.printSummary();
 
 	}

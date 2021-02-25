@@ -53,7 +53,6 @@ class SummaryTool {
 				j = 0;
 				char[] temp = new char[100000];
 				while ((char) nextChar != '.') {
-					// System.out.println(nextChar + " ");
 					temp[j] = (char) nextChar;
 					if ((nextChar = in.read()) == -1) {
 						break;
